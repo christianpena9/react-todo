@@ -1,4 +1,4 @@
-# React Timer App
+# React Boilerplate
 ## Getting started with Node/Webpack/Nodemon project builder
 
 ### 1. Install the proper NodeJS version for your OS.
