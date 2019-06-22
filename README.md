@@ -1,4 +1,4 @@
-# React Boilerplate
+# React Todo App
 ## Getting started with Node/Webpack/Nodemon project builder
 
 ### 1. Install the proper NodeJS version for your OS.
