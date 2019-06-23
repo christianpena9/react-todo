@@ -23,5 +23,7 @@
 
 ### 6. If you get the following Error: listen EADDRINUSE :::3000, do the following
 First get the process ID (PID) of the process running on port 3000:
+
     % lsof -i tcp:3000
+    
     % kill -9 [process ID]
