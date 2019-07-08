@@ -3,7 +3,7 @@ var ReactDOM = require('react-dom');
 var {Route, Router, IndexRoute, hashHistory, browserHistory} = require('react-router');
 
 /* Custom Components */
-
+var TodoApp = require('TodoApp');
 
 /* Load Foundation */
 $(document).foundation();
@@ -12,6 +12,6 @@ $(document).foundation();
 require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
-    <p>Boilerplate 3 Project</p>,
+    <TodoApp />,
     document.getElementById('app')
 );
