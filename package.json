@@ -38,6 +38,7 @@
     "react-addons-test-utils": "^0.14.7",
     "sass-loader": "^3.2.3",
     "script-loader": "^0.6.1",
-    "style-loader": "^0.13.0"
+    "style-loader": "^0.13.0",
+    "uuid": "^3.3.2"
   }
 }
