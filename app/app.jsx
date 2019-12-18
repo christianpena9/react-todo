@@ -5,6 +5,17 @@ var {Route, Router, IndexRoute, hashHistory, browserHistory} = require('react-ro
 /* Custom Components */
 var TodoApp = require('TodoApp');
 
+var actions = require('actions');
+var store = require('configureStore').configure();
+
+store.subscribe(() => {
+    console.log('New State', store.getState());
+});
+
+store.dispatch(actions.addTodo('Clean the yard'));
+store.dispatch(actions.setSearchText('yard'));
+store.dispatch(actions.toggleShowComleted());
+
 /* Load Foundation */
 $(document).foundation();
 
